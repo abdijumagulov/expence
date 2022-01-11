@@ -1,0 +1,15 @@
+.app{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100px 100px;
+    background: #FAEDF0;
+}
+
+.expense-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

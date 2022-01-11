@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,KAAK",
+    "sources": [
+        "main.scss",
+        "_user-car.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

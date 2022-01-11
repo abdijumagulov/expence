@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2? family = Rubik: wght @ 600 & display = swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+.socBlock {
+  margin-top: 130px;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.801);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h3 {
+  font-family: 'Rubik', sans-serif;
+  color: yellow;
+  font-size: 26px;
+  position: absolute;
+}
+
+.blockIcons {
+  margin-top: 100px;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.blockIcons .imgIcon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=socBlock.css.map */

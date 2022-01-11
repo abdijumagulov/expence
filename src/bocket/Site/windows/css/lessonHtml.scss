@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family = Rubik: wght @ 600 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+.body {
+    height: 1500px;
+    background: #0d0f5afd;
+    margin-top: -20px;
+    padding: 70px 0;
+}
+
+.h1{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 1000px;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.897);
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.blockDoc{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.137);
+    margin-top: 300px;
+    display: flex;
+    padding: 6 0px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 255, 0, 0.767);
+}
+
+.prg{
+    font-family: 'Rubik', sans-serif;
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 120px;
+}
+.blockBtn{
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.137);
+
+}
+.btnLi{
+   width: 900px;
+   height: 50px;
+   margin-top: 20px;
+   margin-left: 450px;
+   font-size: 25px;
+   background: rgba(131, 131, 131, 0.781);
+   border: 3px solid rgba(255, 255, 255, 0.678);
+   color: rgba(3, 3, 3, 0.836);
+   transition: 0.4s;
+   .li{
+       text-decoration: none;
+       color: rgba(3, 3, 3, 0.836);
+   }
+}
+
+.btnLi:hover{
+    background: rgba(60, 60, 65, 0.596);
+    border: 3px solid rgba(0, 0, 0, 0.678);
+    color: rgba(255, 255, 255, 0.918);
+    .li{
+        color: rgba(255, 255, 255, 0.836);
+    }
+}

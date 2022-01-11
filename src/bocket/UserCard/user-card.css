@@ -1,0 +1,114 @@
+.user-card {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-items: center;
+  overflow: hidden;
+}
+
+.user-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  background-image: url("../../assets/images/bg-pattern-card.svg");
+  z-index: -1;
+}
+
+.user-card__info {
+  margin-top: 7.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.user-card__img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-bottom: 2em;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.user-card__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.user-card__name {
+  margin: 0 15px 0 30px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.user-card__age, .user-card__location {
+  color: #6a6f81;
+}
+
+.user-card__age {
+  margin-bottom: 20px;
+}
+
+.user-card__location {
+  margin-top: 0;
+}
+
+.user-card__stat {
+  width: 100%;
+  border-top: 1px solid #969696;
+}
+
+.user-card__stat-inner {
+  padding: 45px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  justify-items: center;
+}
+
+.user-card__stat-item {
+  text-align: center;
+}
+
+.user-card__stat-count {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.user-card__stat-descr {
+  color: #969696;
+}
+/*# sourceMappingURL=user-card.css.map */

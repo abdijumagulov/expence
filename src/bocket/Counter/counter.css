@@ -1,0 +1,23 @@
+.counter {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.counter button {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 5px;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=counter.css.map */

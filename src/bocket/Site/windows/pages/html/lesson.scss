@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family = Rubik: wght @ 600 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+.body {
+    height: 2500px;
+    background: #0d0f5afd;
+    margin-top: -20px;
+    padding: 70px 0;
+}
+
+.h1{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 1000px;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.897);
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.blockDoc{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.137);
+    margin-top: 1100px;
+    display: flex;
+    padding: 60px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.blockDoc2{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.137);
+    margin-top: 1850px;
+    display: flex;
+    padding: 6 0px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.h3{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 255, 0, 0.767);
+}
+.h21{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 255, 0, 0.767);
+}
+
+.prg2{
+    font-family: 'Rubik', sans-serif;
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 120px;
+}
+.prg{
+    font-family: 'Rubik', sans-serif;
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 120px;
+}
+.blockVideo{
+    position: absolute;
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    width: 1000px;
+    height: 570px;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2? family = Rubik: wght @ 600 & display = swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+.main {
+  margin-top: -10px;
+  width: 100%;
+  padding: 0px 0 100px 0;
+  background: #0d0f5afd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.h4_main {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-size: 55px;
+  color: rgba(255, 255, 0, 0.925);
+}
+
+.prg_main {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 45px;
+  color: white;
+}
+
+.imgTeam {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 1000px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */
